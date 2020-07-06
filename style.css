@@ -1,0 +1,209 @@
+
+
+body {
+    font-family:'Jost', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Hind Vadodara', sans-serif;
+    color: rgba(255, 224, 121, 0.877);
+    font-size: 60px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+
+h2 {
+    color:darkslategray;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+
+}
+
+h3 {
+    color: #333;
+    font-size: 40px;
+    margin: 50px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    margin: 50px;
+}
+
+hr {
+
+    
+    border: dotted rgb(252, 221, 122) 10px;
+    border-bottom:none;
+     width: 3%;
+    
+}
+p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+
+.menu {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menuitem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+ 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+  
+
+  header {
+    
+    background-image: url("./images/advokaten-1.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 100px 0;
+    margin-bottom: 200px;
+    
+}
+
+
+
+header a {
+    color: white;
+    border: white solid;
+    border-radius: 40px; 
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+a:hover {
+    color: #333;
+}
+
+
+.underrubrik {
+    color: whitesmoke;
+    font-family: 'Muli', sans-serif;
+    margin-top: 100px;
+}
+
+.whatwedo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.icons {
+    display: flex; 
+    justify-content: center;
+    align-items: top;
+    margin-top: 80px;
+     
+}
+
+.icon {
+    margin: 50px auto;
+    width: 60%;
+}
+
+
+.icon img {
+    width: 40%;
+}
+
+
+#imagecontainer {
+    position: relative;
+    z-index: -1;
+    
+}
+
+.images {
+border-radius: 75px;
+margin: 80px auto;
+width: 80%;
+}
+
+.about-us {
+    background-color: #dcdcdc;
+    color: #333;
+
+}
+
+.pristext {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.kontakt {
+    background-color: #dcdcdc;
+    color: #333;
+    
+}
+
+.kontakttext {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#googleMap {
+    margin: 100px auto;
+    width: 60%; 
+   
+}
+
+footer {
+    background-color: #333;
+    color: rgba(255, 224, 121, 0.877);
+}
+
+#footercontainer {
+    padding: 50px;
+}
+.reference {
+    color: whitesmoke;
+    font-size: 0.8rem;
+    margin-top: 30px;
+}
+
+.referencelink {
+    color: whitesmoke;
+    font-size: 0.8rem; 
+}
+
+.logga {
+   border-radius: 70px / 45px;
+   margin: 20px auto 40px;
+  
+}
