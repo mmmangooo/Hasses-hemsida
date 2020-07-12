@@ -9,46 +9,63 @@ body {
 h1 {
     font-family: 'Hind Vadodara', sans-serif;
     color: rgba(255, 224, 121, 0.877);
-    font-size: 60px;
+    font-size: 3.5rem;
     font-weight: 700;
     margin: 30px;
 }
 
+@media only screen and (max-width: 62.5em) {
+    h1 {font-size: 2.5rem;}
+}
 
 h2 {
     color:darkslategray;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: 50px;
+}
 
-
+@media only screen and (max-width: 62.5em) {
+    h2 {font-size: 2rem;}
 }
 
 h3 {
     color: #333;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin: 50px;
 }
 
+
+
 h4 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
     color: #333;
     margin: 50px;
 }
 
-hr {
+@media only screen and (max-width: 62.5em) {
+    h4 {font-size: 1.3rem; margin: 30px;}
+}
 
-    
+hr {
     border: dotted rgb(252, 221, 122) 10px;
     border-bottom:none;
-     width: 3%;
-    
+    width: 3%;   
 }
+
+@media only screen and (max-width: 62.5em) {
+    hr {border: dotted rgb(252, 221, 122) 5px; border-bottom: none;}
+}
+
 p {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 200;
     line-height: 1.5;
     
+}
+
+@media only screen and (max-width: 62.5em) {
+    p {font-size: 1rem;}
 }
 
 ul {
@@ -57,7 +74,7 @@ ul {
 }
 
 li {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0 auto;
 }
 
@@ -81,23 +98,23 @@ li {
     padding-bottom: 100px;
 }
 
-
-  
-
   header {
     
     background-image: url("./images/advokaten-1.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
-    padding: 100px 0;
     margin-bottom: 200px;
-    
-}
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-
+  @media only screen and (max-width: 62.5em) {
+      header {background-image: url("./images/advokaten-1beskuren2.jpg");
+    background-size:cover; }
+    }
 
 header a {
-    color: white;
+    color: white;;
     border: white solid;
     border-radius: 40px; 
     font-weight: 600;
@@ -106,6 +123,10 @@ header a {
     padding: 25px;
     display: inline-block;
     margin-top: 100px;
+}
+
+@media only screen and (max-width: 62.5em) {
+    header a {display: none;}
 }
 
 a:hover {
@@ -119,28 +140,39 @@ a:hover {
     margin-top: 100px;
 }
 
-.whatwedo {
-    width: 80%;
-    margin: 0 auto;
+@media only screen and (max-width: 62.5em) {
+    .underrubrik {font-size: 1.5rem;}
 }
+
 
 .icons {
     display: flex; 
     justify-content: center;
     align-items: top;
-    margin-top: 80px;
-     
+    margin: 50px;    
 }
+
+@media only screen and (max-width: 62.5em) {
+    .icons { display: inline-block;
+        }
+}
+
 
 .icon {
-    margin: 50px auto;
+   
+    margin: 60px;
     width: 60%;
-}
+} 
 
+@media only screen and (max-width: 62.5em) {
+    .icon {margin: 80px auto;}
+}
 
 .icon img {
+    margin: 20px;
     width: 40%;
 }
+
 
 
 #imagecontainer {
@@ -162,7 +194,7 @@ width: 80%;
 }
 
 .pristext {
-    margin: 0 auto;
+    margin: 50px auto;
     width: 70%;
 }
 
@@ -181,6 +213,10 @@ width: 80%;
     margin: 100px auto;
     width: 60%; 
    
+}
+
+@media only screen and (max-width: 62.5em) {
+    #googlemap {margin: 20px auto; width: 80%;}
 }
 
 footer {
@@ -205,5 +241,4 @@ footer {
 .logga {
    border-radius: 70px / 45px;
    margin: 20px auto 40px;
-  
-}
+  }
