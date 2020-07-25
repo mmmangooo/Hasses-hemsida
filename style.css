@@ -6,26 +6,30 @@ body {
     text-align: center;
 }
 
+
 h1 {
     font-family: 'Hind Vadodara', sans-serif;
-    color: rgba(255, 224, 121, 0.877);
+    color: rgba(248, 216, 112, 0.836);
     font-size: 3.5rem;
     font-weight: 700;
     margin: 30px auto;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 @media only screen and (max-width: 62.5em) {
     h1 {font-family: 'Hind Vadodara', sans-serif;
-        color: rgba(255, 224, 121, 0.877);
+        color: rgb(253, 245, 173);
         font-size: 2rem;
         font-weight: 700;
-        margin: 30px auto;}
+        margin: 30px auto;
+        text-shadow: 2px 2px 4px #000000;}
 }
 
 h2 {
     color:darkslategray;
     font-size: 2.5rem;
     margin-bottom: 50px;
+
 }
 
 @media only screen and (max-width: 62.5em) {
@@ -72,29 +76,22 @@ p {
     p {font-size: 1rem;}
 }
 
-ul {
-    list-style-type: none;
-    margin: 0 auto;
-}
-
-li {
-    font-size: 1.25rem;
-    margin: 0 auto;
-}
-
 
 .menu {
     position: fixed;
     width: 100%;
-    display: flex;
-    justify-content: center;
+}
+
+.navcontainer {
+    margin: 0 auto;
 }
 
 .menuitem {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    font-size: 1.25rem;
+    padding-left: 20px;
+    padding-right: 20px;
 }
- 
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -113,7 +110,7 @@ li {
   }
 
   @media only screen and (max-width: 62.5em) {
-      header {background-image: url("./images/advokaten-1beskuren2.jpg");
+      header {background-image: url("./images/närbild.jpg");
     background-size:cover; }
     }
 
@@ -135,6 +132,7 @@ header a {
 
 a:hover {
     color: #333;
+    text-decoration: none;
 }
 
 
@@ -142,10 +140,11 @@ a:hover {
     color: whitesmoke;
     font-family: 'Muli', sans-serif;
     margin-top: 100px;
+    text-shadow: 2px 2px 4px #333;
 }
 
 @media only screen and (max-width: 62.5em) {
-    .underrubrik {font-size: 1.5rem;}
+    .underrubrik {color: rgb(252, 221, 122); font-size: 1.5rem; text-shadow: 2px 2px 4px #000000}
 }
 
 
@@ -191,6 +190,11 @@ margin: 80px auto;
 width: 80%;
 }
 
+@media only screen and (max-width: 62.5em) {
+    .images {
+        width: 100%;}
+    }
+
 .about-us {
     background-color: #dcdcdc;
     color: #333;
@@ -212,6 +216,15 @@ width: 80%;
     margin: 0 auto;
     width: 80%;
 }
+
+.instaikon {
+    width: 8%;
+}
+
+@media only screen and (max-width: 62.5em) {
+    .instaikon {
+        width:20%;}
+    }
 
 #googleMap {
     margin: 100px auto;
