@@ -76,9 +76,7 @@ p {
     p {font-size: 1rem;}
 }
 
-
 .menu {
-    position: fixed;
     width: 100%;
 }
 
@@ -91,6 +89,8 @@ p {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+
 
 .container {
     width: 80%;
